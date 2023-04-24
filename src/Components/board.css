@@ -1,0 +1,10 @@
+.board {
+  width: 35%;
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  min-height: 100vh;
+}

@@ -1,0 +1,64 @@
+.dashboard {
+  height: 100vh;
+  background-color: #f5f5f5;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard-menu {
+  width: 81%;
+  padding: 5px 15px;
+}
+
+.card-holder {
+  display: flex;
+  justify-content: space-between;
+  margin: 17px 0px;
+}
+
+.graph {
+  width: 100%;
+  height: 200px;
+  background-color: #ffffff;
+  margin: 25px 0px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.foot-card-holder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot-card {
+  width: 48%;
+  height: 160px;
+  /* border: 1px solid grey; */
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.foot-card-title {
+  margin-left: 10px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.note {
+  font-size: 10px;
+  margin: 10px;
+  font-weight: 400;
+}
+
+.note-heading {
+  font-size: 12px;
+  font-weight: 600;
+}
+.note::before {
+  content: "";
+  width: 20px;
+  height: 100%;
+  background-color: salmon;
+}

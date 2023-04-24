@@ -1,0 +1,39 @@
+.sidebar {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  width: 17%;
+  color: white;
+  padding: 30px;
+  border-radius: 30px;
+  border: none;
+}
+
+.board-items {
+  margin-top: 15px;
+}
+.b-item {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin: 25px 0px;
+  font-weight: 400;
+}
+.b-item > img {
+  padding-right: 15px;
+  height: 15px;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.sidebar-foot-items {
+  position: absolute;
+  bottom: 50px;
+}
+
+.s-f-item {
+  padding: 5px 0px;
+  font-size: 10px;
+}

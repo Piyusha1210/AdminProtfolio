@@ -1,0 +1,91 @@
+.login {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  /* margin-top: 5rem; */
+}
+
+.login-bar {
+  width: 41%;
+  /* max-width: 45%; */
+  /* background: red; */
+}
+
+.head-signin {
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+.head-signin-para {
+  font-size: 12px;
+}
+
+.login-options {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.login-opt {
+  width: 48%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 8px 20px;
+
+  /* font-family: "Montserrat"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.login-opt > img {
+  height: 12px;
+  padding-right: 8px;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  /* border: 1px solid black; */
+}
+
+label {
+  font-size: 14px;
+}
+a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #346bd4;
+}
+form > input {
+  padding: 10px;
+  font-size: 14 px;
+  background-color: #eaeaea;
+  border: 0px;
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px 0px;
+}
+
+.signIn {
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  font-size: 17px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0px;
+}
+
+.register {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
